@@ -1,4 +1,4 @@
-import * as actionType from "../action/actionType";
+import * as actionType from "../Action/actionType";
 
 const initialState = {
   repos: [],
