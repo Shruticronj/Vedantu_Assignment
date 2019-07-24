@@ -1,0 +1,118 @@
+.mainPage{
+    display: flex;
+    flex-direction: row
+}
+
+.profileDetails{
+    width: 23%;
+    float: left;
+    padding-top: 25px;
+}
+
+.body{
+    width: 700px;
+    display: inline;
+    padding-top: 15px;
+    background-color: white;
+}
+.horizontal-line{
+    border-bottom: 1px solid black;
+    width: 950px;
+}
+
+.profile{
+    width: 250px;
+    text-align: initial;
+    margin-left: 25px;
+}
+
+.avatar{
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.btn{
+    width: 240px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.mail{
+    color: purple;
+    padding-left: 15px;
+}
+
+.space{
+    padding-left: 10px;
+    width: 100px;
+}
+
+.icon{
+    width: 20px;
+}
+
+.location{
+    padding-left: 20px;
+}
+
+.outer-div{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    width: 132% !important;
+}
+
+.box{
+    border: 1px solid black;
+    height: 160px;
+    text-align: initial;
+    padding-left: 15px;
+    padding: 10px;
+}
+
+.box-title{
+    color:#0366d6;
+}
+
+.box-desc{
+    color:#586069 !important
+}
+
+.yellow-circle{
+        height: 15px;
+        width: 15px;
+        background-color: yellow;
+        border-radius: 50%;
+        margin-right: 8px;
+        margin-top: 20px;
+    }
+
+.blue-circle{
+        height: 15px;
+        width: 15px;
+        background-color:#0366d6;
+        border-radius: 50%;
+        margin-right: 8px;
+        margin-top: 20px;
+    }
+
+.tabStyle{
+        height: 17px;
+        width: 27px;
+        background-color: lightgrey;
+        border-radius: 50%;
+        color: black;
+        font-size: 12px;
+        padding: 3px;
+        margin-left: 5px;
+    }
+
+.login{
+    color:#586069
+}

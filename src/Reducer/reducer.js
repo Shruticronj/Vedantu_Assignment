@@ -1,30 +1,27 @@
-import * as actionType from '../action/actionType';
+import * as actionType from "../action/actionType";
 
 const initialState = {
-    arr: [],
-    profile: []
-}
+  repos: [],
+  profile: {}
+};
 
-export const DataReducer = (state=initialState,action)=>{
-    
-    switch(action.type){
-        
-    case actionType.GET_REPOS: 
-        return {
-              ...state,
-            arr: action.payload.data
-          }
-          break;
+export const DataReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case actionType.GET_REPOS:
+      return {
+        ...state,
+        repos: action.payload.data
+      };
 
     case actionType.GET_PROFILE:
-        return {
-            ...state,
-            profile: action.payload.data
-        }
-        break;
-          default:
-            return state;
-      }
+      return {
+        ...state,
+        profile: action.payload.data
+      };
 
-    } 
+    default:
+      return state;
+  }
+};
+
 export default DataReducer;
